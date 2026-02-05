@@ -1,1 +1,48 @@
 /*  your css code here. If applicable */
+body {
+        background-color: rgb(204, 204, 204);
+        font-family: Arial, sans-serif;
+    }
+
+    h1, h2 {
+        text-align: center;
+    }
+
+    /* Song list container */
+    .playlist-box {
+        background: #eee;
+        border: 2px solid black;
+        border-radius: 10px;
+        width: 90%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    ul {
+        padding-left: 0;
+    }
+
+    li {
+        list-style-type: none;
+        margin: 8px 0;
+    }
+
+    a {
+        text-decoration-line: none;
+        color: black;
+    }
+
+    /* Player containers */
+    .player_one, .player_two {
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 10px;
+        width: 80%;
+        margin: 20px auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    video, audio {
+        width: 100%;
+    }
